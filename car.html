@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Звуки автомобилей</title>
+    <meta charset="utf-8">
+	
+	<script src="js/jquery-1.10.2.js"></script>
+	<script src="js/jquery-ui-1.10.4.custom.js"></script>
+	<script src="js/script.js"></script>
+    <script src="https://use.fontawesome.com/4d8ea34731.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui-1.10.4.custom.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+</head>
+<body>
+   <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(70926007, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/70926007" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<header>
+	<div align="center"><p><font size="5">Понравилась вкладка? Посмотрите другие!</font></p></div>
+	<nav class="dws-menu">
+		<ul>
+			<li><a href="kitchen.html"><i class="fa fa-birthday-cake" aria-hidden="true"></i>Кухня</a></li>
+			<li><a href="car.html"><i class="fa fa-truck" aria-hidden="true"></i>Авто</a></li>
+			<li><a href="noviygod.html"><i class="fa fa-tree" aria-hidden="true"></i>Новый год!</a></li>
+			<li><a href="ischez-zvyki.html"><i class="fa fa-ban" aria-hidden="true"></i>Исчезнувшие звуки</a></li>
+			<li><a href="Windows.html"><i class="fa fa-windows" aria-hidden="true"></i>Windows</a></li>
+			<li><a href="soviet-films.html"><i class="fa fa-heart" aria-hidden="true"></i>Крылатые фразы</a></li>
+		</ul>
+	</nav>
+</header>
+<div>
+	<div align="center"><p><font size="4">Если при наведении на картинку звук не включается - нажмите на кнопку ниже</font></p>
+	<button>Нажми на меня!</button></div>
+	<table align="center">
+		<tr>
+			<td>
+			<div class="tooltip" ><img src="image/car/Huracan.jpg" onmouseenter="soundenter(1)" onmouseleave="soundleave(1)" title='Lamborgini Huracan'></div>
+			</td>
+			<td>
+				<div class="tooltip" ><img src="image/car/Bugatti.jpeg" onmouseenter="soundenter(2)" onmouseleave="soundleave(2)" title="Bugatti Chiron"></div>
+			</td>
+			<td>
+				<div class="tooltip" ><img src="image/car/porshe911.jpg" onmouseenter="soundenter(3)" onmouseleave="soundleave(3)" title="Porshe911"></div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="tooltip" ><img src="image/car/MersAMG.jpg" onmouseenter="soundenter(4)" onmouseleave="soundleave(4)" title="Mercedes-Benz S63 AMG Coupe"></div>
+			</td>
+			<td>
+				<div class="tooltip" ><img src="image/car/Subaru.jpeg" onmouseenter="soundenter(5)" onmouseleave="soundleave(5)" title="Subaru Impreza WRX STI"></div>
+			</td>
+			<td>
+				<div class="tooltip"><img src="image/car/BMW.jpg" onmouseenter="soundenter(6)" onmouseleave="soundleave(6)" title="BMW M3 E30"></div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="tooltip"><img src="image/car/Fort GT.jpg" onmouseenter="soundenter(7)" onmouseleave="soundleave(7)" title="Ford GT"></div>
+			</td>
+			<td>
+				<div class="tooltip" ><img src="image/car/Dodge.jpg" onmouseenter="soundenter(8)" onmouseleave="soundleave(8)" title="Dodge Challenger"></div>
+			</td>
+			<td>
+				<div class="tooltip" ><img src="image/car/Nissan Skylane.jpg" onmouseenter="soundenter(9)" onmouseleave="soundleave(9) " title="Nissan Skylane"></div>
+			</td>
+		</tr>
+	</table>
+	<audio src="sound/car/HURACAN.MP3" id="1"></audio>
+	<audio src="sound/car/Bugatti.mp3" id="2"></audio>
+	<audio src="sound/car/Porsche911.mp3" id="3"></audio>
+	<audio src="sound/car/MersAMG.mp3" id="4"></audio>
+	<audio src="sound/car/Subaru.mp3" id="5"></audio>
+	<audio src="sound/car/BMW.mp3" id="6"></audio>
+	<audio src="sound/car/Fort GT.mp3" id="7"></audio>
+	<audio src="sound/car/Dodge.mp3" id="8"></audio>
+	<audio src="sound/car/Nissan Skyline.mp3" id="9"></audio>
+</div>
+</body>
+</html>
